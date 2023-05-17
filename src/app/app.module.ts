@@ -7,6 +7,7 @@ import { Exercice2Component } from './exercice2/exercice2.component';
 import { Exercice3Component } from './exercice3/exercice3.component';
 import { Exercice3EnfantComponent } from './exercice3/exercice3-enfant/exercice3-enfant.component';
 import { Exercice1EnfantComponent } from './exercice1/exercice1-enfant/exercice1-enfant.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { Exercice1EnfantComponent } from './exercice1/exercice1-enfant/exercice1
     Exercice1EnfantComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

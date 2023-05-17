@@ -11,4 +11,10 @@ export class Exercice1Component implements OnInit {
   constructor() {}
 
   ngOnInit() {}
+
+  displayCounter(count) {
+    console.log(count);
+    this.result = count;
+  }
+
 }
